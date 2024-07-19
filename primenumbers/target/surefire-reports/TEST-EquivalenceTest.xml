@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="BranchTests" time="0.028" tests="10" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="EquivalenceTest" time="0" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="22"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -57,14 +57,5 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="66.0"/>
   </properties>
-  <testcase name="testOrderedPrimesInRange_IncludingLowerBoundary" classname="BranchTests" time="0.014"/>
-  <testcase name="testOrderedPrimesInRange_ValidRange" classname="BranchTests" time="0"/>
-  <testcase name="testOrderedPrimesInRange_InvalidRange_StartLessThan1" classname="BranchTests" time="0.003"/>
-  <testcase name="testOrderedPrimesInRange_IncludingUpperBoundary" classname="BranchTests" time="0.001"/>
-  <testcase name="testOrderedPrimesInRange_InvalidRange_EndGreaterThan10000" classname="BranchTests" time="0.001"/>
-  <testcase name="testOrderedPrimesInRange_LargeRange" classname="BranchTests" time="0.002"/>
-  <testcase name="testOrderedPrimesInRange_InvalidRange_StartGreaterThanEnd" classname="BranchTests" time="0"/>
-  <testcase name="testOrderedPrimesInRange_InvalidSingleYearRange" classname="BranchTests" time="0.001"/>
-  <testcase name="testOrderedPrimesInRange_NoPrimes" classname="BranchTests" time="0"/>
-  <testcase name="testIsPrime" classname="BranchTests" time="0.001"/>
+  <testcase name="testOrderedPrimesInRange_SmallRange" classname="EquivalenceTest" time="0"/>
 </testsuite>
