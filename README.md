@@ -9,6 +9,8 @@
 
 <br><br>
 
+## Control Flow Diagram
+![IMG_0AD0B59B9686-1](https://github.com/user-attachments/assets/491d69dc-4fc5-459a-adb3-4b01b79ae6e9)
 
 ## Testing Strategy
 
